@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* width: fit-content; */
+    width: 100%;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+.navbar {
+    background: #9b3030;
+    width: 100%;
+    height: 12rem;
+
+}
+
+.nav-upper {
+    background: #f5f5f5;
+    height: 2rem;
+    width: inherit;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    /* background: #000;    */
+}
+
+.menu {
+    height: inherit;
+    /* background: #be5d5d; */
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    font-family: 'gilroy';
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+
+.menu ul li,
+span {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.midnav {
+    width: 100%;
+    height: 5rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+
+}
+
+.navopt {
+    display: flex;
+    gap: 2rem;
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.menu-icon{
+    display: none;
+}
+
+.navright input {
+    width: 70%;
+       height: 2.2rem;
+       border-radius: 2rem;
+       border: none;
+       background: #f7f7f7;
+       padding: 1em;
+}
+
+.bottomnav {
+    width: inherit;
+    display: flexs;
+    height: 5rem;
+    background: #f7f7f7;
+}
+
+.swiper {
+    width: inherit;
+    height: 5rem;
+    color: rgb(1, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.swiperheading {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.swipertext {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.top-img {
+    width: 100%;
+    background: #ffffff;
+    padding: 0 1rem;
+}
+
+.top-img img {
+    width: 100%;
+}
+
+
+
+.textbox {
+    /* background: #e67070; */
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 0 1rem;
+}
+
+.textbox :nth-child(1) {
+
+    font-size: 1.2rem;
+}
+
+.textbox :nth-child(2) {
+
+    font-size: 4rem;
+}
+
+.textbox :nth-child(3) {
+
+    font-size: 1.2rem;
+}
+
+.shopbtn {
+    width: 5rem;
+    color: white;
+    height: 2rem;
+    background: #000;
+    border: none;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-size: medium;
+}
+
+.tag {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+
+
+}
+
+.shoes2 img {
+    width: 100%;
+    padding: 0 1.2rem;
+}
+
+.footer {
+    width: 100%;
+    height: 21rem;
+    background: #101010;
+    margin-top: 2px;
+}
+
+.img-together {
+    width: 96%;
+    margin: auto;
+    background: #ffffff;
+}
+
+.gif {
+    width: 49.5%;
+    height: 100%;
+}
+
+.boygirl {
+    float: right;
+    width: 49.5%;
+    height: inherit;
+    position: relative;
+}
+
+.scroll {
+    width: 96%;
+    height: 35rem;
+    margin: auto;
+    background: #ffffff;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbox {
+    position: relative;
+    width: 30rem;
+    height: 35rem;
+    background: #ff0101;
+    display: inline-block;
+    margin-right: .5rem;
+
+}
+
+.scrollimg {
+    position: absolute;
+    width: 30rem;
+    height: 35rem;
+    background: #ffffff;
+}
+
+.scrollimg img {
+
+    width: 30rem;
+
+}
+
+.scrolltext {
+    position: absolute;
+    height: 5rem;
+    width: 30rem;
+    bottom: 0;
+    background: #ffffff;
+
+}
+.scroll-left-text{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.scrolltext :nth-child(1){
+    font-size: 1.2rem;
+
+}
+.scrolltext :nth-child(2){
+    opacity: 0.5;
+}
+.scrolltext :nth-child(3){
+    opacity: 0.5;
+}
+
+.gender{
+    width: 96%;
+    height: 40rem;
+    background: #ffffff;
+    margin: 0 4%;
+    margin: auto;
+    display: flex;
+
+    gap: .5rem;
+    justify-content: space-between;
+}
+
+
+ .gen{
+  width: 50%;  
+  position: relative;
+  background: #ffffff;
+} 
+.gmen{
+    /* background: #ff0000; */
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/men.webp);
+   
+}
+
+.gen-button{
+position: absolute;
+bottom: 3rem;
+left: 4rem;
+width: 5rem;
+height: 2rem;
+border: none;
+border-radius: 2rem;
+font-size: 1rem;
+background: #ffffff;
+
+}
+
+.gwomen{
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/women.webp);
+}
+
+.gkids{
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/kid.webp);
+}
+.isckbox{
+    width: 100%;
+    height: auto;
+    /* background: #4f4141; */
+
+   
+}
+.isck {
+    display: flex;
+    margin: auto;
+    padding: 2rem 0;
+    width: fit-content;
+    gap: 6rem;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.isck ul{
+    list-style: none;
+    opacity: 0.5;
+}
+.footer{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    height: auto;
+ 
+}
+.footertop{
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer-top-left{
+    display: flex;
+gap: 5rem;
+line-height: 2rem;
+list-style: none;
+margin-bottom: 4rem;
+}
+.footer-top-left li{
+    opacity: .5;
+}
+.footer-top-right{
+    display: flex;
+    gap: 1rem;
+    opacity: .5;
+    font-size: 2rem;
+
+}
+.bottomfooter{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+  
+}
+.fright
+{
+    display: flex;
+    gap: 2rem;
+    opacity: .5;
+}
+.fleft
+{
+    display: flex;
+    gap: 2rem;
+}
+.fleft p{
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1119px) {
+    .snkr {
+        display: none;
+    }
+   
+@media only screen and (max-width: 1013px) {
+    .scroll {
+      
+        height: 17rem;
+        
+    }
+    .scrollbox{
+        width: 15rem;
+        height: 17rem; 
+    }
+    .scrollimg{
+        width: 15rem;
+        height: 17rem;
+    }
+    .scrollimg img {
+
+        width: 15rem;
+    
+    }
+    .scrolltext {
+      
+        height: 2.5rem;
+        width: 15rem;
+        bottom: 0;
+        background: #ffffff;
+    
+    }
+    
+    .scroll-left-text{
+        padding: 0.2rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .scrolltext :nth-child(1){
+        font-size: .6rem;
+    
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1066px) {
+    .sale {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .kids {
+        display: none;
+    }
+
+    .textbox {
+        text-align: left;
+        margin-top: 4rem;
+        margin: 0 0.1rem;
+    }
+    .tag {
+        margin-top: 2rem;
+     
+        font-size: 1.5rem; 
+        
+    }
+}
+
+
+@media only screen and (max-width:937px) {
+ .navright input{
+    display: none;
+ }
+   .women{
+    display: none;
+   }
+
+   .men{
+    display: none;
+   }
+   .new{
+    display: none;
+   }
+   .nav-upper{
+    display: none;
+   }
+   .navbar{
+    height: 10rem;
+   }
+   .menu-icon{
+    display: flex;
+   }
+   
+
+.logo img{
+    width: 50px;
+}
+.midnav{
+    padding: 0 1rem;
+}
+}
+@media only screen and (max-width:700px) {
+
+.gender{
+    flex-direction: column;
+    height: 100rem;
+}
+.gen{
+    width: 100%;
+
+}
+.gmen{
+   
+    height: 40rem;
+}
+.gwomen{
+   
+    height: 40rem;
+}
+.gkids{
+   
+    height: 40rem;
+}
+}
+
+@media only screen and (max-width:870px) {
+
+.isck ul{
+    display: none;
+
+}
+.isck{
+    display: flex;
+    margin: 0 1rem;
+    padding: 2rem 0;
+    width: fit-content;
+    gap: 2rem;
+    flex-direction: column;
+    line-height: 1px;
+    list-style: none;
+ 
+}
+.isckbox{
+    height: auto;
+}
+.fcont{
+    display: none;
+}
+.footertop{
+  
+    padding-top: 2rem;
+  flex-direction: column;
+
+  justify-content: space-between;
+  
+}
+.footer-top-left
+{
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.bottomfooter{
+    padding-top: 2rem;
+    flex-direction: column;
+}
+.fleft{
+    flex-direction: column;
+}
+.fright{
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.ff{
+    opacity: ;
+}
+}
+
+}
